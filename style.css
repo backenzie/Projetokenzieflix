@@ -1,69 +1,80 @@
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    width: 1280px;
-    height: 720px;
-    background: #121214;
-    border-radius: 12px;
-}
-img#logo{
-    justify-content: center;
-    width: 229px;
-    height: 68px;
-    margin:  150px 100px 100px 130px;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 95vw;
+  height: 95vh;
+  background: #121214;
 
+  font-family: "IBM Plex Sans", sans-serif;
 }
-h1.titulo1{
-    color: #FFFFFF;
-    margin: 0px 0px 80px 285px;
+div.principal {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  width: 700px;
 }
-section ul{
-    width: 718px;
-    height: 194px;
-    color: #FFFFFF;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    
+div.principal-secundario {
+  display: flex;
+  margin: 0 auto;
+  width: 160px;
 }
-img.imgg{
-    padding: 15px;
-    width: 160px;
-    height: 160px;  
-    border-radius: 30px;
+img#logo {
+  justify-content: center;
+  width: 229px;
+  height: 68px;
+  margin: 150px 100px 100px 130px;
 }
-img.imgg:hover{ 
-    zoom: 105%;
+h1.titulo1 {
+  color: #ffffff;
+  margin: 0px 0px 80px 285px;
 }
-p.dois a{
-    font-size: 14px;
-    align-items: center;
-    margin: 0px 0px 0px 65px;
-    font-weight: 600;
-    text-decoration: none;
-    color: white; 
+section ul {
+  width: 718px;
+  height: 194px;
+  color: #ffffff;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
-p.um a{
-    margin: 0px 0px 0px 40px;
-    text-decoration: none;
-    color: white;
+img.imgg {
+  width: 160px;
+  height: 160px;
+  border-radius: 30px;
 }
-button{ 
-    background-color: #121214;
-    color: white;
-    border: 1.5px solid #FFFFFF;
-    box-sizing: border-box;
-    border-radius: 8px;
-    width: 206px;
-    height: 50px;
-    margin:  150px 100px 100px 300px;
+li {
+  width: 160px;
 }
-button a{
-    text-decoration: none;
-    color: white;
+img.imgg:hover {
+  zoom: 105%;
+}
+p.dois a {
+  font-size: 14px;
+  align-items: center;
+  margin: 0px 0px 0px 65px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+p.um a {
+  margin: 0px 0px 0px 40px;
+  text-decoration: none;
+  color: white;
+}
+button {
+  background-color: #121214;
+  color: white;
+  border: 1.5px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 206px;
+  height: 50px;
+  margin: 150px 100px 100px 300px;
+}
+button a {
+  text-decoration: none;
+  color: white;
 }
